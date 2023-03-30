@@ -71,10 +71,10 @@ void quickSortIterative(int arr[], int low, int high){
     }
 }
 int main(){
-    int arr[5000]; // Initialize the array 
+    int arr[100]; // Initialize the array 
     
     //add random elements
-    for(int i=0; i<5000; i++){
+    for(int i=0; i<100; i++){
         arr[i] = rand()%1000;
     }
     
