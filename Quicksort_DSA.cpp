@@ -13,8 +13,8 @@ int partition(int arr[], int begin, int end){
         if(arr[j] < pivot){
             i++;
             int temp = arr[j];
-            arr[j]= pivot;
-            pivot = temp ;
+            arr[j]= arr[i];
+            arr[i] = temp ;
         }
     }
 
