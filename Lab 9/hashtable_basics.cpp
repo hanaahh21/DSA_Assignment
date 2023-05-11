@@ -27,8 +27,8 @@ struct HashTable{
         int sum = 0;
         int hash = 0;
 	//add your code below
-        for (int i = 0; i < user_name.length(); i++) {
-            sum += (int)user_name[i];
+        for (char i:user_name) {
+            sum += (int)i;	//convert characters into ascii and find sum
         }
         hash = sum % MAX_LENGTH;
 
