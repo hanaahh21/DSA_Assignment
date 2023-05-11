@@ -66,7 +66,7 @@ struct HashTable{
             cout<<"Sorry, couldn't find user with this username.\n";
         }
         else{
-            password[hash].search(user_name);
+            password[hash].search(user_name.data());
         }
     }
 };
